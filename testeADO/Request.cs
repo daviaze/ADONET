@@ -20,7 +20,7 @@ namespace testeADO
             this.Database = database;
             this.ConnectionString = "monta aqui sua connectionString";
         }
-        public List<string> GetParcelas()
+        public List<string> GetProdutos()
         {
 
             using (FbConnection connection = new FbConnection(ConnectionString)) //Instanciando a conexão com base na biblioteca de acesso a dados do firebird
