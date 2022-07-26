@@ -35,7 +35,7 @@ namespace testeADO
 
                         adapterItem.Fill(dataset, "PRODUTOS");
 
-                        List<string> parcelas = new List<string>();
+                        List<string> listaProdutos = new List<string>();
                         foreach (DataTable table in dataset.Tables) //Lista as tabelas
                         {
                             DataRowCollection rows = table.Rows;
@@ -43,10 +43,10 @@ namespace testeADO
                             foreach (DataRow row in rows) //Lista as linhas das tabelas
                             {
 
-                                parcelas.Add(row[0].ToString());
+                                listaProdutos.Add(row[0].ToString());
                             }
                         }
-                        return parcelas;
+                        return listaProdutos;
                     }
                     catch (Exception e)
                     {
