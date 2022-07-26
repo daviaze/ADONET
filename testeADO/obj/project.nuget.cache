@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GirT4fzRu2Z3pVwH8S3w9jnR1bSESOorCy50caQY4WWjC2hpZ3Uz3kyT352CG+xdiGJ1eBEHwKTDiof+vWwExQ==",
+  "success": true,
+  "projectFilePath": "C:\\desenvolvimento\\testeADO\\testeADO\\testeADO\\testeADO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\firebirdsql.data.firebirdclient\\9.0.2\\firebirdsql.data.firebirdclient.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
